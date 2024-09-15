@@ -253,8 +253,8 @@ class DMM(TrojanDetector):
                 epoch = 0
                 not_find_times = 0
                 is_success = False
-                new_generate_lens = [5]+[2]*5
-                max_try_epochs = [50]*6
+                new_generate_lens = [1] * 15
+                max_try_epochs = [20]*15
                 max_try_epochs[-1] = num_steps
                 init_sentence = torch.randint(0, tokenizer.vocab_size, (15,)).to(device)
                 if tokenizer.encode(tokenizer.decode(init_sentence)) != init_sentence.tolist():

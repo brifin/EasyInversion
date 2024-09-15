@@ -66,8 +66,8 @@ class PEZ_A(TrojanDetector):
                 # loss_list = []
                 epoch = 0
                 num_steps_losses = []
-                new_generate_lens = [5] * 3
-                max_try_epochs = [80]*3
+                new_generate_lens = [1] * 15
+                max_try_epochs = [20]*15
                 # max_try_epochs[-1] = num_steps-np.sum(max_try_epochs[:-1])
                 max_try_epochs[-1] = 150
 

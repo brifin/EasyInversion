@@ -1,5 +1,5 @@
 new_generate_lens = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-max_try_epochs = [20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+max_try_epochs = [40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
 max_try_epochs[-1] = 500
 
 import torch

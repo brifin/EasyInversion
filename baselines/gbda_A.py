@@ -34,8 +34,8 @@ class GBDA_A(TrojanDetector):
                 # ========== run optimization ========== #
                 # loss_list = []
                 num_steps_losses = []
-                new_generate_lens = [5] * 3
-                max_try_epochs = [80]*3
+                new_generate_lens = [1] * 15
+                max_try_epochs = [20]*15
                 # max_try_epochs[-1] = num_steps-np.sum(max_try_epochs[:-1])
                 max_try_epochs[-1] = 150
                 epoch = 0
