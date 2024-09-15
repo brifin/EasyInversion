@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8a3bc395-25d7-448c-baf1-2d206c79f840" name="ict">
+        <fileTransfer rootFolder="/data/chenjiahua/trojan_detection" accessType="SFTP" host="127.0.0.1" port="2216" sshConfigId="0c26b272-df2c-44b9-a8e7-851070c57ec7" sshConfig="chenjiahua@127.0.0.1:2216 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

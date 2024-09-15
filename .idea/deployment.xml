@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ict" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="chenjiahua@127.0.0.1:2216">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data15/chenjiahua/trojan_detection" local="$PROJECT_DIR$/additional" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ict">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/additional" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
